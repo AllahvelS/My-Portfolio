@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First GitHub Page</title>
+    <title>Rick and Morty Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
   </head>
   <body>
-    <h1>Welcome to my page!</h1>
+    <header>
+      <h1>Rick and Morty</h1>
+      <nav>
+        <ul>
+          <li><a href="AllCharacters.html">All Characters</a></li>
+        </ul>
+      </nav>
+      <section id="about">
+        
+        <p>This page lists the characters from the popular TV show "Rick and Morty".</p> <p>You can use the search bar to find a specific character</p><p>Or click the "All Characters" link to see a list of all the characters.</p>
+      </section>
+    </header>
+    
+    <div class ="container">
+    <form>
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search" required>
+      <button type="submit">Submit</button>
+    </form>
+    
+    <div id="results"></div>
+    </div>
   </body>
 </html>

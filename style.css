@@ -1,0 +1,124 @@
+body {
+  color: white;
+  background-image: url("https://realtimevfx.com/uploads/default/original/2X/9/9cf050de0c5e99bf7e0914a55416f054ff9e0872.gif");
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+  border: solid 2px;
+  background-image: url("https://www.teahub.io/photos/full/193-1938932_rick-and-morty-wallpaper-pc.jpg");
+  background-size: 50%;
+  
+  background-repeat:space; 
+  padding-left: 5%;
+}
+li{
+  list-style: none;
+}
+li a{
+  margin-right: 3%;
+  list-style: none;
+  background-color: lime;
+  width: 10%;
+}
+
+
+label {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  place-items: center;
+  margin: 20px;
+}
+
+form {
+  padding: 20px;
+}
+
+#results {
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+div p a {
+  color: white;
+  background-color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#about {
+  margin-left: 40%;
+  
+  width: 20%;
+  align-items: center;
+}
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+  header {
+    background-image: url("https://www.teahub.io/photos/full/193-1938932_rick-and-morty-wallpaper-pc.jpg");
+    background-size: 100%;
+    font-size: 2rem;
+    padding-left: 0;
+  }
+  li a {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 10px;
+  }
+  #about {
+  margin-left: 0;
+  margin-top: 20px;
+  width: 80%;
+  }
+  }
+  
+  /* For screens between 600px and 900px */
+  @media (min-width: 600px) and (max-width: 1200px) {
+  header {
+  font-size: 70%;
+  }
+  li a {
+  width: 50%;
+  margin-right: 10px;
+  }
+  }
+  
